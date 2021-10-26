@@ -1,0 +1,9 @@
+<h1>Suppression d'un employe</h1>
+
+<ul>
+    <li *ngFor="let l of lesemployes">
+        {{l|json}}
+    </li>
+</ul>
+
+<button (click)="supp()">Supprimer Premier</button>
